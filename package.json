@@ -1,9 +1,15 @@
+
 {
-  "name": "@kevin0608/tea-xyz-quest",
-  "version": "2.0.0",
-  "description": "Quest for tea.xyz",
+  "name": "peaq-social",
+  "version": "1.0.0",
+  "description": "Mạng xã hội phi tập trung đơn giản chạy trên peaq",
   "main": "index.js",
-  "author": "@kevin0608",
-  "repository": "https://github.com/codyhuynhxnxx/tea-xyz-quest.git",
-  "license": "ISC"
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.9.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
 }
